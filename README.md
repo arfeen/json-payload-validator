@@ -1,4 +1,4 @@
-#JSON Schema Validator
+# JSON Schema Validator
 
 
 This class validates JSON payloads by using predefined schema based on basic necessary data types.
@@ -13,7 +13,7 @@ This schema validator works on following types:
 - boolean
 - choices
 
-##Constraints:
+## Constraints:
 
 - max_length (string length)
 - required	 (for mandatory fiels)
@@ -27,7 +27,7 @@ This schema validator works on following types:
 - max_item_count	(for array data type, to restrict number of items)
 - sub_nodes			(for nested objects)
 
-##Example Schema:
+## Example Schema:
 
 ```
 $_payLoadSchema = [
@@ -108,7 +108,7 @@ $_payLoadSchema = [
 ];
 ```
 
-######Sample JSON Payload to Validate
+###### Sample JSON Payload to Validate
 ```
 $json_raw = '
 {
