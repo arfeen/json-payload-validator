@@ -1,0 +1,14 @@
+{
+    "name": "arfeen/json-schema-validator",
+    "description": "Validates JSON using predefined schema based on data types and constraints.",
+    "version": "1.0",
+    "type": "library",
+	"autoload": {
+        "psr-4": {
+            "JSONSchema\\": "JSONSchema/"
+        }
+    },
+    "require": {
+        "php": "^5.3.0"
+    }
+}
