@@ -1,7 +1,7 @@
 {
     "name": "arfeen/json-schema-validator",
     "description": "Validates JSON using predefined schema based on data types and constraints.",
-    "version": "1.0",
+    "version": "1.0.0-dev",
     "minimum-stability" : "stable",
     "type": "library",
 	"autoload": {
