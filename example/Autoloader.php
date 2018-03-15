@@ -3,7 +3,7 @@
 class Autoloader {
 
     static public function loader($className) {
-        $filename = str_replace("\\", '/', $className) . ".php";
+        $filename = "../".str_replace("\\", '/', $className) . ".php";
         if (file_exists($filename)) {
             include($filename);
             if (class_exists($className)) {
